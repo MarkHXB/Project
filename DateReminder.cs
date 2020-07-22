@@ -14,8 +14,10 @@ namespace Project
 {
     public partial class DateReminder : Form
     {
+
         DateHelpClass @class = new DateHelpClass();
         DateTime date = DateTime.Now;
+
         public DateReminder()
         {
             MainStyle();
